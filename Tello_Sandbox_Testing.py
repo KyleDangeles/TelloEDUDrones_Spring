@@ -45,8 +45,8 @@ recvThread.start()
 
 
 print("\nFirst & Last Names")
-print("Program Name: ")
-print("Date: ")
+print("Program Name: Square Flight Path ")
+print("Date: 3.20.2025 ")
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
 print("\n****CHECK SURROUNDING AREA BEFORE FLIGHT****")
 ready = input('\nAre you ready to take flight: ')
@@ -60,13 +60,13 @@ try:
         sendmsg('takeoff')
 
         sendmsg('forward 100')
-        sendmsg('cw 90')
+        sendmsg('cw 90',8)
+        sendmsg('forward 100',)
+        sendmsg('cw 90',8)
+        sendmsg('forward 100')
+        sendmsg('ccw 270',8)
         sendmsg('forward 100')
         sendmsg('cw 90')
-        #sendmsg('forward 100')
-        #sendmsg('ccw 270')
-        #sendmsg('forward 100')
-        #sendmsg('cw 90')
 
         sendmsg('land')
 
