@@ -56,19 +56,17 @@ try:
     if ready.lower() == 'yes':
         print("\nStarting Drone!\n")
 
-        sendmsg('command', 0)
+        sendmsg('command', 8)
         sendmsg('takeoff')
 
         sendmsg('forward 100')
-        sendmsg('cw 90')
-        sendmsg('forward 100')
-        sendmsg('cw 90')
-        sendmsg('forward 100')
-        sendmsg('ccw 270')
-        sendmsg('forward 100')
-        sendmsg('cw 90')
-        # Review the (SDK) Software Development Kit resource for Drone Commands
-        # Delete these comments before writing your program
+        #sendmsg('cw 90')
+        #sendmsg('forward 100')
+        #sendmsg('cw 90')
+        #sendmsg('forward 100')
+        #sendmsg('ccw 270')
+        #sendmsg('forward 100')
+        #sendmsg('cw 90')
 
         sendmsg('land')
 
