@@ -60,9 +60,9 @@ try:
         sendmsg('takeoff')
 
         sendmsg('forward 100')
-        #sendmsg('cw 90')
-        #sendmsg('forward 100')
-        #sendmsg('cw 90')
+        sendmsg('cw 90')
+        sendmsg('forward 100')
+        sendmsg('cw 90')
         #sendmsg('forward 100')
         #sendmsg('ccw 270')
         #sendmsg('forward 100')
