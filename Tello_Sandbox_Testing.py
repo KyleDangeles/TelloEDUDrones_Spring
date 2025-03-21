@@ -58,15 +58,16 @@ try:
 
         sendmsg('battery?', 8)
         sendmsg('command', 0)
-        sendmsg('takeoff',8)
+        sendmsg('takeoff',3)
 
+        sendmsg('speed 80',4)
         sendmsg('forward 100')
-        sendmsg('cw 90',8)
+        sendmsg('cw 90',3)
         sendmsg('forward 100',)
-        sendmsg('cw 90',8)
+        sendmsg('cw 90',3)
         sendmsg('forward 100',0)
-        sendmsg('battery?', 8)
-        sendmsg('ccw 270',8)
+        sendmsg('battery?', 3)
+        sendmsg('ccw 270',3)
         sendmsg('forward 100')
         sendmsg('cw 90')
 
