@@ -65,7 +65,7 @@ try:
 
 
         #Commit Message: Second Hoop - Stable
-        #sendmsg('go 240 0 60 70')
+        sendmsg('go 180 0 50 70')
 
 
 
