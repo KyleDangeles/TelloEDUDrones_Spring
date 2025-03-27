@@ -58,15 +58,14 @@ try:
 
         sendmsg('command', 0)
         sendmsg('battery?', 0)
-        sendmsg('takeoff', 1)
+        sendmsg('takeoff',8)
 
         #Commit Message: First Hoop - Stable
-        sendmsg('up 100',5)
-        sendmsg('forward 190')
+        sendmsg('forward 150')
 
 
         #Commit Message: Second Hoop - Stable
-
+        #sendmsg('go 240 0 60 70')
 
 
 
