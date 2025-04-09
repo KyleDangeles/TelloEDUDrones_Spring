@@ -61,19 +61,19 @@ try:
         sendmsg('takeoff',8)
 
         #Commit Message: First Hoop - Stable
-        sendmsg('forward 150')
+        sendmsg('forward 160')
 
 
         #Commit Message: Second Hoop - Stable
-        sendmsg('go 180 0 50 70')
+        sendmsg('go 180 0 40 70',10)
 
 
 
         #Commit Message: Third Hoop - Stable
+        sendmsg('curve 145 145 0 0 260 0 60')
+        sendmsg('curve 0 260 0 145 145 0 60')
 
-
-
-        #Commit Message: Final Hoop - Stable
+        #Commit Message: Final Hoop
 
 
         sendmsg('land')
